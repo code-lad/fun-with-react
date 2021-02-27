@@ -23,26 +23,20 @@
   width: fit-content;
 }
 
-.Card {
-  padding: 0 20px;
-}
-
-.Card .red {
-  color: red;
-}
-
-.Card .green {
+.Message .Unsub {
   color: green;
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
-.Card .orange {
-  color: orange;
-}
-
-.Card .grey {
-  color: grey;
-}
-
-.Card .blue {
-  color: blue;
+.Message .Sub {
+  color: red;
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
 }
